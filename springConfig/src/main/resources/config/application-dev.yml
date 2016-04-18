@@ -1,0 +1,5 @@
+spring:
+  profiles: dev
+test:
+  port: 8080
+ 
