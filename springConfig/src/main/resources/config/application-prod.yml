@@ -1,5 +1,8 @@
 spring:
   profiles: prod
+server:
+  contextPath: /prod
+  port: 8088  
 test:
   port: 8088
  

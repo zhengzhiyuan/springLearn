@@ -1,5 +1,8 @@
 spring:
   profiles: dev
+server:
+  contextPath: /dev
+  port: 8080  
 test:
   port: 8080
  

@@ -18,7 +18,7 @@ public class ProfileController {
     @Inject
     private TestProperty testProperty;
 
-    @RequestMapping(method = RequestMethod.GET, value = "server")
+    @RequestMapping(method = RequestMethod.GET, value = "testPort")
     public TestProperty get() {
         logger.info("testProperty port : {}", testProperty.getPort());
         return testProperty;
