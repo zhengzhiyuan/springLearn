@@ -12,8 +12,6 @@ public class ArgForm {
     private String other;
 
     public ArgForm() {
-        this.id = 1;
-        this.name = "name";
         this.other = "other info";
     }
 

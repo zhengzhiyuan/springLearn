@@ -16,10 +16,11 @@ public class ArgController {
         return argForm;
     }
 
-    // 测试uri http://localhost:8080/mvcHello/eg/arg/testModel/2?name=parm&other=what
-    @RequestMapping("/testModel/{id}")
+    // 测试uri http://localhost:8080/mvcHello/eg/arg/testModel/v1/2?name=parm&other=what
+    @RequestMapping("/testModel/v1/{id}")
     @ResponseBody
     public ArgForm testArg(@ModelAttribute ArgForm argForm) {
         return argForm;
     }
+
 }
